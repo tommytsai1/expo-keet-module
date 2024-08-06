@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-keet-module": ["../src/index"],
+      "expo-keet-module/*": ["../src/*"]
+    }
+  }
+}
